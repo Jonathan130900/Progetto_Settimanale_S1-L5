@@ -13,3 +13,8 @@ body {
     font-family: 'Open Sans';font-size: 22px;
     line-height: 1.65;
 }
+
+#heading {
+    color: #25a2c3;
+    font-family: Montserrat;
+}
