@@ -1,0 +1,15 @@
+/* Your styles here */
+@font-face {
+    font-family: Open-Sans;
+    src: url('railway.woff2') format('woff2'),
+        url('railway.woff') format('woff'),
+        url('railway.ttf') format('truetype')
+    
+}
+
+body {
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Sans';font-size: 22px;
+    line-height: 1.65;
+}
