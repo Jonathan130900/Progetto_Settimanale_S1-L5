@@ -1,20 +1,111 @@
 /* Your styles here */
-@font-face {
-    font-family: Open-Sans;
-    src: url('railway.woff2') format('woff2'),
-        url('railway.woff') format('woff'),
-        url('railway.ttf') format('truetype')
-    
-}
-
 body {
+    max-width: 500px;
+    min-width: 450px;
+    display: inline-block;
     color: #393d41;
     font-size: 1.2rem;
-    font-family: 'Open Sans';font-size: 22px;
+    font-family: "Open Sans", sans-serif;
     line-height: 1.65;
 }
 
-#heading {
+p {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+button {
+    background-color: #f04c2f;
+    margin: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-family: "Montserrat", serif;
+   }
+
+#containerLogo {
+    height: 150px;
+    background-color: black;
+}
+
+#logo {
+    width: 150px;
+    padding-top: 45px;
+}
+
+.containerFoto {
+    padding: 30px;
+    text-align: center;
+}
+
+.fotoContainer {
+    border-radius: 45;
+    overflow: hidden;
+    border: lightgray, 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.heading {
     color: #25a2c3;
-    font-family: Montserrat;
+    font-family: "Montserrat", serif;
+    line-height: 1.5;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.principale {
+    font-size: 40px;
+    line-height: 1;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.containerBanner {
+    background-image: url(/assets/images/banner.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.containerVantaggi {
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+
+#fotoNotebook {
+    border-radius: 250px;
+}
+
+.quoteContainer {
+    background-color: red;
+    color: white;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.quoteContainer > h1 {
+    color: white;
+    font-size: 35px;
+    font-family: "Montserrat", serif;
+
+}
+
+.quoteContainer > blockquote {
+    font-style: italic;
+    padding-top: 20px;
 }
